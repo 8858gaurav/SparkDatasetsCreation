@@ -57,3 +57,6 @@ aggregated_orders \
 .save()
 
 # 4 different modes are available: overwrite, append, ignore,errorifexists.
+
+# we can pass local path as well, means to say, once we are done with processing on the hdfs data
+# we can store that data in our local path system or in our gateway node. 
