@@ -55,3 +55,5 @@ aggregated_orders \
 .option("header",True) \
 .option("path","/Users/gauravmishra/Desktop/Generating_data/procesing_data/output_data") \
 .save()
+
+# 4 different modes are available: overwrite, append, ignore,errorifexists.
